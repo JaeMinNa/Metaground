@@ -1,2 +1,0 @@
-# Metaground
-JaeMinNa.github.io
