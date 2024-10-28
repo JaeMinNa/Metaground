@@ -16,7 +16,7 @@
 </head>
 <body>
     <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" width=600 height=900 tabindex="-1"></canvas>
+        <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
         <div id="unity-loading-bar">
             <div id="unity-progress-bar-empty">
                 <div id="unity-progress-bar-full"></div>
@@ -119,9 +119,9 @@
             var loaderUrl = buildUrl + "/Metaground.loader.js";
             var config =
             {
-                dataUrl: buildUrl + "/Metaground.data.unityweb",
-                frameworkUrl: buildUrl + "/Metaground.framework.js.unityweb",
-                codeUrl: buildUrl + "/Metaground.wasm.unityweb",
+                dataUrl: buildUrl + "/Metaground.data.gz",
+                frameworkUrl: buildUrl + "/Metaground.framework.js.gz",
+                codeUrl: buildUrl + "/Metaground.wasm.gz",
                 streamingAssetsUrl: "StreamingAssets",
                 companyName: "DefaultCompany",
                 productName: "Client",
